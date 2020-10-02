@@ -1,4 +1,4 @@
-# IBM-Data-Science-Professional-Certificates
+# IBM-Data-Science-Professional-Certificate
 This repository contains work done for the attainment of the IBM Data Science Professional Certificate
 
 ## Introduction
