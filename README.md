@@ -12,12 +12,12 @@ In order to answer the question on which factors affect the severity of accident
 Luckily, a convenient data source has been kindly provided by the course intstructors [here](https://www.coursera.org/learn/applied-data-science-capstone/supplement/Nh5uS/downloading-example-dataset). Metadata of the dataset can be found [here](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Metadata.pdf).
 
 ## Model
-The main targeted feature would be the *SEVERITYCODE*, which represents the two possible state/class of the accidents - (1) Property damage only, (2) Injury. Given that this is a binary classification problem, we will explore the use of Logistic Regression (LR) and the ensemble Random Forest Classification (RF) models. Gradient Boosting Classifiers (GBC) which were found to normally provide superior results for binary and multi-class classification tasks will be implemented.
+The main targeted feature would be the *SEVERITYCODE*, which represents the two possible state/class of the accidents - (0) Property damage only, (1) Injury. Given that this is a binary classification problem, we will explore the use of Logistic Regression (LR) and the ensemble Random Forest Classification (RF) models. Gradient Boosting Classifiers (GBC) which were found to normally provide superior results for binary and multi-class classification tasks will be implemented.
 
 ## Conclusion
 Overall, we see that GBC returns the best performance compared to LR and RF, boasting a recall of 0.70 vs 0.64 and 0.63 from LR and RF respectively. The poor Jaccard score for all models however meant that the models tend to fail in predicting a large portion of the dataset correctly.
 
-A closer look into the classification reports above show that most model suffer from poor precision for the severe case, i.e. when *severitycode* == 1, i.e. there is a tendency for the model to make False Positives.
+A closer look into the classification reports above show that most model suffer from poor precision for the severe case, i.e. when *severitycode* == 1 , i.e. there is a tendency for the model to make False Positives.
 
 To further improve prediction of the models, hyperparameter tunining of the models can be carried out. However, to further greatly improve the scores, it is highly likely that we may have to look deeper into feature or data engineering to obtain better predictive features.
 
