@@ -21,8 +21,8 @@ A closer look into the classification reports above show that most model suffer 
 
 To further improve prediction of the models, hyperparameter tunining of the models can be carried out. However, to further greatly improve the scores, it is highly likely that we may have to look deeper into feature or data engineering to obtain better predictive features.
 
-|Jaccard|F1-Score|Precision|Recall|
-|-------|--------|---------|------|
+|Model|Jaccard|F1-Score|Precision|Recall|
+|-----|-------|--------|---------|------|
 |LogisticRegression|0.372980|0.681718|0.710528|0.647226|
 |RandomForestClassifier|0.343732|0.648532|0.686934|0.631443|
 |GradientBoostingClassifier|0.385116|0.673655|0.719399|0.702093|
