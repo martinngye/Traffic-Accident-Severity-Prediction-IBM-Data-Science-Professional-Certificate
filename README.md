@@ -1,4 +1,4 @@
-# IBM-Data-Science-Professional-Certificate
+# Traffic Accident Severity Prediction
 This repository contains work done for the attainment of the IBM Data Science Professional Certificate
 
 ## Introduction
